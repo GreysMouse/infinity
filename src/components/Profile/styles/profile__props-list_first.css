@@ -1,0 +1,11 @@
+.profile__props-list_first {
+  grid-area: list1;
+  gap: calc(100vw * 0.00125 + 3.6px);
+  padding: 0 calc(100vw * 0.01875 + 4.0px);
+}
+
+@media screen and (max-width: 800px) {
+  .profile__props-list_first {
+    padding: 0 0 0 calc(100vw * 0.01875 + 4.0px);
+  }
+}

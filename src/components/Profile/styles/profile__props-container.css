@@ -1,0 +1,4 @@
+.profile__props-container {
+  display: flex;
+  column-gap: calc(100vw * 0.0025 + 7.2px);
+}

@@ -1,0 +1,49 @@
+.profile {
+  position: relative;
+  display: grid;
+
+  grid-template-areas:
+    "title title title"
+    "avatar list1 list2"
+    "avatar list1 button"
+    "avatar noticeHeader none"
+    "avatar notice none";
+  grid-template-columns: max-content minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: auto auto 1fr auto auto;
+
+  padding: calc(100vw * 0.0475 + 8.8px) calc(100vw * 0.04875 - 15.6px);
+}
+
+@media screen and (max-width: 1440px) {
+  .profile {
+    grid-template-areas:
+      "title title title"
+      "avatar list1 list2"
+      "avatar list1 button"
+      "noticeHeader noticeHeader noticeHeader"
+      "notice notice notice";
+    grid-template-columns: min-content minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: auto auto min-content auto auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .profile {
+    grid-template-areas:
+      "title title"
+      "avatar list1"
+      "noticeHeader list1"
+      "notice notice"
+      "list2 list2"
+      "button button";
+    grid-template-columns: min-content minmax(0, 1fr);
+    grid-template-rows: auto auto min-content auto auto auto;
+  }
+
+  .profile::before {
+    content: url(../../../images/background-cells.svg);
+    position: absolute;
+    top: 0;
+    right: calc(-100vw * 0.03625 - 8.4px);
+  }
+}

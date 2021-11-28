@@ -1,0 +1,26 @@
+.common-button {
+  padding: 0;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, #441E78 0%, #633D8D 100%);
+  box-shadow: 20px 20px 200px rgba(240, 240, 240, 0.48);
+
+  font-size: calc(100vw * 0.005 + 14.4px);
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+
+  transition: filter 0.2s linear;
+}
+
+.common-button:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+@media screen and (max-width: 425px) {
+  .common-button {
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,12 @@
+.profile__props-list_second {
+  grid-area: list2;
+  gap: calc(100vw * 0.010625 + 1.6px);
+  padding: 0 0 0 calc(100vw * 0.01875 + 4.0px);
+}
+
+@media screen and (max-width: 800px) {
+  .profile__props-list_second {
+    margin: 16px 0 0;
+    padding: 0;
+  }
+}

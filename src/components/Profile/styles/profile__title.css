@@ -1,0 +1,9 @@
+.profile__title {
+  grid-area: title;
+
+  margin: 0 0 calc(100vw * 0.003125 + 24.0px);
+  font-size: calc(100vw * 0.02625 + 13.6px);
+  font-weight: 700;
+  line-height: 1.0;
+  color: #0e0e0e;
+}

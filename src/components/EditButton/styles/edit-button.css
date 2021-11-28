@@ -1,0 +1,10 @@
+.edit-button {
+  padding: 0;
+  outline: none;
+  border: none;
+  background: url(../../../images/edit-icon.svg) center/cover no-repeat;
+}
+
+.edit-button:hover {
+  cursor: pointer;
+}

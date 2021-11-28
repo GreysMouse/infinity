@@ -1,0 +1,16 @@
+.profile__avatar-edit-button {
+  position: absolute;
+  top: calc(100vw * 0.0075 + 3.6px);
+  right: calc(100vw * 0.0075 + 3.6px);
+  margin: 0;
+
+  width: calc(100vw * 0.01125 + 4.4px);
+  height: calc(100vw * 0.01125 + 4.4px);
+}
+
+.profile__avatar-edit-button:hover {
+  top: calc(100vw * 0.006875 + 2.8px);
+  right: calc(100vw * 0.006875 + 2.8px);
+  width: calc(100vw * 0.0125 + 6.0px);
+  height: calc(100vw * 0.0125 + 6.0px);
+}

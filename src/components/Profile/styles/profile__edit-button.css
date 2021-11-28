@@ -1,0 +1,13 @@
+.profile__edit-button {
+  grid-area: button;
+  margin: calc(100vw * 0.0025 + 15.2px) calc(100vw * 0.01875 + 4.0px) 0;
+
+  width: calc(100vw * 0.053125 + 191.0px);
+  height: calc(100vw * 0.014375 + 49.4px);
+}
+
+@media screen and (max-width: 800px) {
+  .profile__edit-button {
+    margin: calc(100vw * 0.0025 + 15.2px) 0 0;
+  }
+}

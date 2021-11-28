@@ -1,0 +1,10 @@
+.copy-button {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: #0000 url(../../../images/copy-button.png) center/cover no-repeat;
+}
+
+.copy-button:hover {
+  cursor: pointer;
+}

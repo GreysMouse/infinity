@@ -1,0 +1,15 @@
+.profile__notice-heading {
+  grid-area: noticeHeader;
+
+  margin: calc(-100vw * 0.0025 + 16.8px) calc(100vw * 0.01875 + 4.0px) 0;
+  font-size: calc(100vw * 0.005 + 8.4px);
+  font-weight: 550;
+  line-height: 1.5;
+  color: #0e0e0eb3;
+}
+
+@media screen and (max-width: 1440px) {
+  .profile__notice-heading {
+    margin: calc(-100vw * 0.0025 + 16.8px) 0 0;
+  }
+}

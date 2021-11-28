@@ -1,0 +1,10 @@
+.profile__props-info {
+  margin: calc(-100vw * 0.0025 - 2.2px) 0 0;
+  font-size: calc(100vw * 0.005 + 10.4px);
+  font-weight: 550;
+  line-height: 1.5;
+  color: #0e0e0e;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

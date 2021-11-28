@@ -1,0 +1,22 @@
+.checkbox-button__label_checked::before {
+  left: 20px;
+  border: 1px solid #8960E2;
+  background-color: #8960E2;
+}
+
+.checkbox-button__label_checked::after {
+  left: 20px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .checkbox-button__label_checked::after {
+    left: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .checkbox-button__label_checked::after {
+    left: 13px;
+  }
+}

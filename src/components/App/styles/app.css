@@ -1,0 +1,8 @@
+.app {
+  font-family: 'Helvetica Neue Cyr', 'Arial', 'sans-serif';
+  letter-spacing: 0.05em;
+  background-color: #000;
+  /* background-color: #fdfdfd; */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

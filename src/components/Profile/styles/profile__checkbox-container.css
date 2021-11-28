@@ -1,0 +1,23 @@
+.profile__checkbox-container {
+  grid-area: notice;
+  align-self: flex-end;
+
+  display: flex;
+  flex-direction: column;
+  gap: calc(-100vw * 0.0025 + 12.8px);
+
+  margin: calc(-100vw * 0.009375 + 23.0px) 0 0;
+  padding: 0 calc(100vw * 0.01875 + 4.0px);
+}
+
+@media screen and (max-width: 1440px) {
+  .profile__checkbox-container {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .profile__checkbox-container {
+    width: min-content;
+  }
+}

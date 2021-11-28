@@ -1,0 +1,9 @@
+.profile__copy-button-message {
+  flex-shrink: 0;
+
+  margin: 0;
+  font-size: calc(100vw * 0.005 + 8.4px);
+  font-weight: 550;
+  line-height: 1.5;
+  color: #0e0e0eb3;
+}

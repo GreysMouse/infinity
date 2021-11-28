@@ -1,0 +1,14 @@
+.profile__avatar-container {
+  position: relative;
+  grid-area: avatar;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(100vw * 0.135 + 59.8px);
+  height: calc(100vw * 0.155 + 68.4px);
+
+  border-radius: 10px;
+  background-color: #ebebeb;
+}
